@@ -637,6 +637,7 @@ function setLatestDataset() {
     .reduce((latestDateIndex, currentDate, currentIndex, array) => {
       return currentDate > array[latestDateIndex] ? currentIndex : latestDateIndex;
     }, 0);
+
   currentVersion = Object.keys(dataSet)[latestDateIndex];
 
   characterData = dataSet[currentVersion].characterData;
