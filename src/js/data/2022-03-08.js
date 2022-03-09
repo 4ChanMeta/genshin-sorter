@@ -4,7 +4,7 @@ dataSet[dataSetVersion] = {};
 dataSet[dataSetVersion].options = [
   {
     name: "Remove Unreleased Characters",
-    key: "deka",
+    key: "unr",
     tooltip: "Check this to remove Unreleased Characters."
   },
   {
@@ -28,287 +28,348 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "FumoFumo Marisa",
-    img: "touhou2.jpg",
-    opts: {}
+    name: "Aloy",
+    img: "genshin2.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Sakuya",
-    img: "touhou3.jpg",
-    opts: {}
+    name: "Arataki Itto",
+    img: "genshin3.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Remilia",
-    img: "touhou4.jpg",
-    opts: {}
+    name: "Barbara",
+    img: "genshin4.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Patchy",
-    img: "touhou5.jpg",
-    opts: {
-      old: true
-    }
+    name: "Beidou",
+    img: "genshin5.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Alice",
-    img: "touhou6.jpg",
-    opts: {
-      old: true
-    }
+    name: "Bennett",
+    img: "genshin6.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Flan",
-    img: "touhou7.jpg",
-    opts: {
-      old: true
-    }
+    name: "Chongyun",
+    img: "genshin7.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Sanae",
-    img: "touhou8.jpg",
-    opts: {
-      old: true
-    }
+    name: "Keqing",
+    img: "genshin8.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Cirno",
-    img: "touhou9.jpg",
-    opts: {
-      old: true
-    }
+    name: "Diluc",
+    img: "genshin9.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Suwako",
-    img: "touhou10.jpg",
-    opts: {}
+    name: "Diona",
+    img: "genshin10.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Youmu",
-    img: "touhou11.jpg",
-    opts: {
-      old: true
-    }
+    name: "Eula",
+    img: "genshin11.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Yuyuko",
-    img: "touhou12.jpg",
-    opts: {
-      old: true
-    }
+    name: "Fischl",
+    img: "genshin12.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Meiling",
-    img: "touhou13.jpg",
-    opts: {}
+    name: "Ganyu",
+    img: "genshin13.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Chen",
-    img: "touhou14.jpg",
-    opts: {
-      old: true
-    }
+    name: "Gorou",
+    img: "genshi14.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Ran",
-    img: "touhou15.jpg",
-    opts: {
-      old: true
-    }
+    name: "Hu Tao",
+    img: "genshin15.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Yukari",
-    img: "touhou16.jpg",
-    opts: {
-      old: true
-    }
+    name: "Jean",
+    img: "genshin16.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Kaguya",
-    img: "touhou17.jpg",
-    opts: {}
+    name: "Kaedehara Kazuha",
+    img: "genshin17.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Moko",
-    img: "touhou18.jpg",
-    opts: {}
+    name: "Kaeya",
+    img: "genshin18.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Satori",
-    img: "touhou19.jpg",
-    opts: {}
+    name: "Kamisato Ayaka",
+    img: "genshin19.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Koishi",
-    img: "touhou20.jpg",
-    opts: {}
+    name: "Klee",
+    img: "genshin20.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Udonge",
-    img: "touhou21.jpg",
-    opts: {}
+    name: "Kujou Sara",
+    img: "genshin21.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Tewi",
-    img: "touhou22.jpg",
-    opts: {}
+    name: "Lisa",
+    img: "genshin22.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Marisa (ver.2)",
-    img: "touhou23.jpg",
-    opts: {
-      alt: true
-    }
+    name: "Mona",
+    img: "genshin23.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Sanae (ver.2)",
-    img: "touhou24.jpg",
-    opts: {}
+    name: "Ningguang",
+    img: "genshin24.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Kokoro",
-    img: "touhou25.jpg",
-    opts: {}
+    name: "Noelle",
+    img: "genshin25.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Flan (ver.1.5)",
-    img: "touhou26.jpg",
-    opts: {}
+    name: "Qiqi",
+    img: "genshin26.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Reimu (Kourindou ver.)",
-    img: "touhou27.jpg",
-    opts: {
-      alt: true
-    }
+    name: "Raiden Shogun",
+    img: "genshin27.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Remilia (Kourindou ver.)",
-    img: "touhou28.jpg",
-    opts: {
-      alt: true
-    }
+    name: "Razor",
+    img: "genshin28.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Sakuya (Kourindou ver.)",
-    img: "touhou29.jpg",
-    opts: {
-      alt: true
-    }
+    name: "Rosaria",
+    img: "genshin29.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Udonge (Hisouten ver.)",
-    img: "touhou30.jpg",
-    opts: {
-      alt: true
-    }
+    name: "Sangonomiya Kokomi",
+    img: "genshin30.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Marisa (Kourindou ver.)",
-    img: "touhou31.jpg",
-    opts: {
-      alt: true
-    }
+    name: "Sayu",
+    img: "genshin32.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Kasen",
-    img: "touhou32.jpg",
-    opts: {}
+    name: "Shenhe",
+    img: "genshin33.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Aya",
-    img: "touhou33.jpg",
-    opts: {}
+    name: "Sucrose",
+    img: "genshin34.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Hatate",
-    img: "touhou34.jpg",
-    opts: {}
+    name: "Tartaglia (Childe)",
+    img: "genshin35.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Alice (ver.1.5)",
-    img: "touhou35.jpg",
-    opts: {}
+    name: "Thoma",
+    img: "genshin36.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Patchy (ver.1.5)",
-    img: "touhou36.jpg",
-    opts: {}
+    name: "Lumine",
+    img: "genshin37.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Youmu (ver.1.5)",
-    img: "touhou37.jpg",
-    opts: {}
+    name: "Aether",
+    img: "genshin38.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Yuyuko (ver.1.5)",
-    img: "touhou38.jpg",
-    opts: {}
+    name: "Amber",
+    img: "genshin31.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Chen (ver.1.5)",
-    img: "touhou39.jpg",
-    opts: {}
+    name: "Venti",
+    img: "genshin39.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Ran (ver.1.5)",
-    img: "touhou40.jpg",
-    opts: {}
+    name: "Xiangling",
+    img: "genshin40.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Yukari (ver.1.5)",
-    img: "touhou41.jpg",
-    opts: {}
+    name: "Xiao",
+    img: "genshin41.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Cirno (ver.1.5)",
-    img: "touhou42.jpg",
-    opts: {}
+    name: "Xingqiu",
+    img: "genshin42.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "FumoFumo Cirno (with a tan)",
-    img: "touhou43.jpg",
-    opts: {
-      alt: true
-    }
+    name: "Xinyan",
+    img: "genshin43.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "FumoFumo Tenshi",
-    img: "touhou44.jpg",
-    opts: {}
+    name: "Yae Miko",
+    img: "genshin44.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "DekaFumo Reimu",
-    img: "touhouex1.jpg",
-    opts: {
-      deka: true
-    }
+    name: "Yanfei",
+    img: "genshin45.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "DekaFumo Marisa",
-    img: "touhouex2.jpg",
-    opts: {
-      deka: true
-    }
+    name: "Yoimiya",
+    img: "genshin46.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "DekaFumo Cirno",
-    img: "touhouex3.jpg",
-    opts: {
-      deka: true
-    }
+    name: "Yun Jin",
+    img: "genshin47.png",
+opts: {
+    fem: true
+}
   },
   {
-    name: "DekaFumo Remilia",
-    img: "touhouex4.jpg",
-    opts: {
-      deka: true
-    }
+    name: "Zhongli",
+    img: "genshin48.png",
+opts: {
+    men: true
+}
   },
   {
-    name: "DekaFumo Flan",
-    img: "touhouex5.jpg",
-    opts: {
-      deka: true
-    }
+    name: "Kamisato Ayato",
+    img: "genshinex1.png",
+opts: {
+   men: true,
+   unr: true
+}
   },
+  {
+    name: "Dainslief",
+    img: "genshinex2.png",
+opts: {
+   men: true,
+   unr: true
+}
+  }
 ]
