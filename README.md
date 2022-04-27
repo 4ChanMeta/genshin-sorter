@@ -5,15 +5,15 @@ this will be updated more later... just a small personal side project... more so
 
 Edit: I didn't edit this for a while and don't have any immediate plans to as i am flooded with school. Future changes will be:
 
--Fixing gorou's sprite (forgot to give him one)
+-Fixing gorou's sprite (forgot to give him one) [done]
 
--fixing the embed background (???)
+-misc css changes
 
--moving ayato out of unreleased characters
+-moving ayato out of unreleased characters [done]
 
--adding yelan and shinobu to unreleased characters (or just add them in directly if they come out before i update this and add in whoever else got drip marketed)
+-adding yelan and shinobu to unreleased characters (or just add them in directly if they come out before i update this and add in whoever else got drip marketed) [done]
 
--add yaoyao to unreleased characters (idk)
+-add yaoyao to unreleased characters (idk) [done]
 
 .
 
