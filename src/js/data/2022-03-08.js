@@ -113,7 +113,7 @@ opts: {
   },
   {
     name: "Gorou",
-    img: "genshi14.png",
+    img: "genshin49.png",
 opts: {
     men: true
 }
@@ -368,6 +368,22 @@ opts: {
     img: "genshinex2.png",
 opts: {
    men: true,
+   unr: true
+}
+  },
+  {
+    name: "Yelan",
+    img: "genshinex3.png",
+opts: {
+   fem: true,
+   unr: true
+}
+  },
+  {
+    name: "Shinobu",
+    img: "genshinex4.png",
+opts: {
+   fem: true,
    unr: true
 }
   }
