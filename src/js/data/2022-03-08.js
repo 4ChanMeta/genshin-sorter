@@ -360,8 +360,7 @@ opts: {
     name: "Kamisato Ayato",
     img: "genshinex1.png",
 opts: {
-   men: true,
-   unr: true
+   men: true
 }
   },
   {
