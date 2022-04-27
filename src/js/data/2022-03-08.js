@@ -386,5 +386,21 @@ opts: {
    fem: true,
    unr: true
 }
+  },
+  {
+    name: "Yelan",
+    img: "genshinex3.png",
+opts: {
+   fem: true,
+   unr: true
+}
+  },
+  {
+    name: "Yaoyao",
+    img: "genshinex5.png",
+opts: {
+   fem: true,
+   unr: true
+}
   }
 ]
