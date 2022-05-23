@@ -15,6 +15,10 @@ body {
     --text: #d9d9d9;
     --background: #000;
   }
+
+  html.system .button, html.system .image, html.system .text {
+    border-color: var(--text);
+  }
 }
 
 html.light {
@@ -25,6 +29,10 @@ html.light {
 html.dark {
   --text: #d9d9d9;
   --background: #000;
+}
+
+html.dark .button, html.dark .image, html.dark .text {
+  border-color: var(--text);
 }
 
 body {
