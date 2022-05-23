@@ -3,6 +3,28 @@ body {
   font-size: 16px;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: #454545;
+    --background: white;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #d9d9d9;
+    --background: #000;
+  }
+}
+
+body {
+  background-color: var(--background);
+}
+
+p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
+  color: var(--text);
+}
+
 .container {
   display: flex;
   flex-flow: column nowrap;
