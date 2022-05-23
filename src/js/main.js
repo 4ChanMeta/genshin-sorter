@@ -53,8 +53,20 @@ let totalBattles    = 0;
 let sorterURL       = window.location.host + window.location.pathname;
 let storedSaveType  = localStorage.getItem(`${sorterURL}_saveType`);
 
+function setTheme(selectObj) {
+  const value = selectObj.value;
+  document.getElementsByTagName("html")[0].setAttribute("class", value);
+  localStorage.setItem("theme", value);
+}
+
 /** Initialize script. */
 function init() {
+
+  const theme = localStorage.getItem("theme");
+  if (theme) {
+    document.querySelector("html").setAttribute("class", theme);
+    document.querySelector("#theme").value = theme;
+  }
 
   /** Define button behavior. */
   document.querySelector('.starting.start.button').addEventListener('click', start);

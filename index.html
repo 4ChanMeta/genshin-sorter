@@ -1,4 +1,4 @@
-<html>
+<html class="system">
 
 <head>
   <link rel="shortcut icon" href="src/assets/yinyang.ico" type="image/x-icon">
@@ -64,6 +64,18 @@
           href="https://github.com/4ChanMeta/genshin-sorter/">Source Code</a> | <a class="clearsave">Clear Save Data</a>
 
         <br><br>
+
+        <div>
+            <label for="theme">theme: </label>
+
+            <select name="theme" id="theme" onchange="setTheme(this)">
+                <option value="system">system theme</option>
+                <option value="dark">dark</option>
+                <option value="light">light</option>
+            </select>
+        </div>
+
+        <br>
 
         <p>Sorter for Genshin characters. Pick your sources, and hit the Start button.</p>
         <p><strong>Certain options have details that you can hover to read.</strong></p>

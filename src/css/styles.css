@@ -4,17 +4,27 @@ body {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  html.system {
     --text: #454545;
     --background: white;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  html.system {
     --text: #d9d9d9;
     --background: #000;
   }
+}
+
+html.light {
+  --text: #454545;
+  --background: white;
+}
+
+html.dark {
+  --text: #d9d9d9;
+  --background: #000;
 }
 
 body {
