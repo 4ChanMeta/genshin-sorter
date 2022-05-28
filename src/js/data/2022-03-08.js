@@ -3,17 +3,17 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Remove Unreleased Characters",
+    name: "Filter Unreleased Characters",
     key: "unr",
     tooltip: "Check this to remove Unreleased Characters."
   },
   {
-    name: "Remove Women",
+    name: "Filter Women",
     key: "fem",
     tooltip: "Check this to remove female characters."
   },
   {
-    name: "Remove Men",
+    name: "Filter Men",
     key: "men",
     tooltip: "Check this to remove male characters."
   }
