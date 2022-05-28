@@ -376,7 +376,7 @@ opts: {
     img: "genshinex3.png",
 opts: {
    fem: true,
-   unr: true
+   unr: false
 }
   },
   {
@@ -398,6 +398,14 @@ opts: {
   {
     name: "Yaoyao",
     img: "genshinex5.png",
+opts: {
+   fem: true,
+   unr: true
+}
+  },
+  {
+    name: "Heizou",
+    img: "genshinex6.jpg",
 opts: {
    fem: true,
    unr: true
