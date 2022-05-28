@@ -405,9 +405,9 @@ opts: {
   },
   {
     name: "Heizou",
-    img: "genshinex6.jpg",
+    img: "genshinex6.png",
 opts: {
-   fem: true,
+   men: true,
    unr: true
 }
   }
