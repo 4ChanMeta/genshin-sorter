@@ -375,24 +375,14 @@ opts: {
     name: "Yelan",
     img: "genshinex3.png",
 opts: {
-   fem: true,
-   unr: false
+   fem: true
 }
   },
   {
     name: "Kuki Shinobu",
     img: "genshinex4.png",
 opts: {
-   fem: true,
-   unr: true
-}
-  },
-  {
-    name: "Yelan",
-    img: "genshinex3.png",
-opts: {
-   fem: true,
-   unr: true
+   fem: true
 }
   },
   {
