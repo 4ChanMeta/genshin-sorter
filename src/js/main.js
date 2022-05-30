@@ -500,7 +500,7 @@ function result(imageNum = 3) {
   const res = (char, num) => {
     const charName = reduceTextWidth(char.name, 'Arial 12px', 160);
     const charTooltip = char.name !== charName ? char.name : '';
-    return `<div class="result"><div class="left">${num}</div><div class="right"><span title="${charTooltip}">${charName}</span></div></div>`;
+    return `<div class="result"><div class="left l2">${num}</div><div class="right"><span title="${charTooltip}">${charName}</span></div></div>`;
   }
 
   let rankNum       = 1;

@@ -5,42 +5,42 @@ body {
 
 @media (prefers-color-scheme: light) {
   html.system {
-    --text: #454545;
-    --background: white;
+    --secondary-color: #454545;
+    --primary-color: white;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   html.system {
-    --text: #d9d9d9;
-    --background: #000;
+    --secondary-color: #d9d9d9;
+    --primary-color: #000;
   }
 
   html.system .button, html.system .image, html.system .text {
-    border-color: var(--text);
+    border-color: var(--secondary-color);
   }
 }
 
 html.light {
-  --text: #454545;
-  --background: white;
+  --secondary-color: #454545;
+  --primary-color: white;
 }
 
 html.dark {
-  --text: #d9d9d9;
-  --background: #000;
+  --secondary-color: #d9d9d9;
+  --primary-color: #000;
 }
 
 html.dark .button, html.dark .image, html.dark .text {
-  border-color: var(--text);
+  border-color: var(--secondary-color);
 }
 
 body {
-  background-color: var(--background);
+  background-color: var(--primary-color);
 }
 
 p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
-  color: var(--text);
+  color: var(--secondary-color);
 }
 
 .container {
@@ -59,7 +59,7 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
 .progressbar {
   position: relative;
   width: 492px;
-  border: 1px solid var(--text);
+  border: 1px solid var(--secondary-color);
   padding: 3px;
   margin: 2px 0px;
 }
@@ -231,6 +231,7 @@ label:hover {
   align-content: flex-start;
   width: 80%;
   margin: 2em auto;
+  background: var(--primary-color);
 }
 
 @media all and (min-width: 600px) {
@@ -253,7 +254,7 @@ label:hover {
   display: grid;
   width: 211px;
   grid-template-columns: repeat(2, 1fr);
-  border: 1px solid #000;
+  border: 1px solid var(--secondary-color);
   margin-right: 5px;
 }
 
@@ -267,12 +268,12 @@ label:hover {
 
 .result.spacer {
   height: 1px;
-  background-color: #000;
+  background-color: var(--secondary-color);
 }
 
 .result.head {
-  background-color: #000;
-  color: #FFF;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .result > .left {
@@ -280,6 +281,10 @@ label:hover {
   padding: 1px 3px 1px 0.5em;
   grid-column: 1 / 2;
   text-align: right;
+}
+
+.l2 {
+  color: var(--secondary-color);
 }
 
 .result.image .left {
@@ -297,7 +302,7 @@ label:hover {
   width: 160px;
   padding: 1px 0em 1px 0em;
   grid-column: 2 / 3;
-  border-left: 1px solid #000;
+  border-left: 1px solid var(--secondary-color);
   text-align: center;
 }
 
