@@ -52,13 +52,13 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
 
 .progress {
   margin: 1em auto;
-  width: 500px;
+  width: 90%;
   display: none;
 }
 
 .progressbar {
   position: relative;
-  width: 492px;
+  width: 100%;
   border: 1px solid var(--secondary-color);
   padding: 3px;
   margin: 2px 0px;
@@ -66,7 +66,7 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
 
 .progresstext {
   position: absolute;
-  width: 492px;
+  width: 100%;
   margin: 3px 0px;
   text-align: center;
   font-size: 0.7em;
@@ -83,7 +83,27 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
   display: grid;
   grid-template-columns: 120px 1fr 120px;
   grid-gap: 5px;
-  width: 420px;
+  width: 90%;
+}
+
+@media (min-width:  500px) {
+  .progress {
+    width: 500px;
+  }
+
+  .sorter {
+    width: 420px;
+  }
+
+  .options {
+    flex-direction: row !important;
+    width: 450px !important;
+  }
+
+  .options > div {
+    font-size: 0.5625em;
+    flex-grow: 1;
+  }
 }
 
 .button {
@@ -182,17 +202,22 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
   border: 1px solid #000000;
 }
 
+.options-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .options {
   margin: 1em auto;
-  display: grid;
+  /*display: grid;
   text-align: left;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  width: 450px;
-}
-
-.options > div {
-  font-size: 0.5625em;
+  width: 450px;*/
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
 }
 
 label {
