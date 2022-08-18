@@ -202,9 +202,29 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
   border: 1px solid #000000;
 }
 
+.wrapper {
+  grid-row: 1 / 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
+
+.sort.image {
+  max-width: 120px;
+  max-height: 100%;
+}
+
+.left, .right {
+  margin: auto;
+  cursor: pointer;
+  width: 120px;
+}
+
 .options-wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .options {

@@ -72,8 +72,8 @@ function init() {
   document.querySelector('.starting.start.button').addEventListener('click', start);
   document.querySelector('.starting.load.button').addEventListener('click', loadProgress);
 
-  document.querySelector('.left.sort.image').addEventListener('click', () => pick('left'));
-  document.querySelector('.right.sort.image').addEventListener('click', () => pick('right'));
+  document.querySelector('.left .sort.image').addEventListener('click', () => pick('left'));
+  document.querySelector('.right .sort.image').addEventListener('click', () => pick('right'));
   
   document.querySelector('.sorting.tie.button').addEventListener('click', () => pick('tie'));
   document.querySelector('.sorting.undo.button').addEventListener('click', undo);
@@ -301,8 +301,8 @@ function display() {
 
   progressBar(`Battle No. ${battleNo}`, percent);
 
-  document.querySelector('.left.sort.image').src = leftChar.img;
-  document.querySelector('.right.sort.image').src = rightChar.img;
+  document.querySelector('.left .sort.image').src = leftChar.img;
+  document.querySelector('.right .sort.image').src = rightChar.img;
 
   
 
