@@ -224,7 +224,10 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
 .options-wrapper {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+
+.option-label {
+  white-space: nowrap;
 }
 
 .options {
@@ -238,6 +241,7 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
   flex-direction: column;
   text-align: left;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 label {
