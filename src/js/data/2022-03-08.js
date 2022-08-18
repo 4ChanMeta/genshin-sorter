@@ -398,7 +398,7 @@ opts: {
     img: "genshinex6.png",
 opts: {
    men: true,
-   unr: true
+   unr: false
 }
   }
 ]
