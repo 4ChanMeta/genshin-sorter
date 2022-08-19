@@ -194,12 +194,12 @@ p, span, h1, h2, h3, h4, h5, h6, li, td, label, .button {
 
 .sorter > .left {
   grid-column: 1 / 2;
-  border: 1px solid #000000;
+  border: 1px solid var(--secondary-color);
 }
 
 .sorter > .right {
   grid-column: 3 / 4;
-  border: 1px solid #000000;
+  border: 1px solid var(--secondary-color);
 }
 
 .wrapper {
