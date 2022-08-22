@@ -554,7 +554,7 @@ opts: {
   },
   {
     name: "Candace",
-    img: "nilou.jpg",
+    img: "candace.jpg",
 opts: {
    fem: true,
    unr: true,
