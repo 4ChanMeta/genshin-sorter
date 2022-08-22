@@ -485,7 +485,7 @@ opts: {
     img: "Character_Collei_Card.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
