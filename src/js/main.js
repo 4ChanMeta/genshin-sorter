@@ -258,7 +258,7 @@ function start() {
       marker++;                                                         // Increment the marker to put the right half into.
 
       sortedIndexList[marker] = parent.slice(midpoint, parent.length);  // Put the right half next to its left half.
-      totalBattles += sortedIndexList[marker].length;                   // The result's length will add to our total number of comparisons.
+      // totalBattles += sortedIndexList[marker].length;                   // The result's length will add to our total number of comparisons.
       parentIndexList[marker] = i;                                      // Record where it came from.
       marker++;                                                         // Rinse and repeat, until we get arrays of length 1. This is initialization of merge sort.
     }
@@ -288,7 +288,8 @@ function start() {
 
 /** Displays the current state of the sorter. */
 function display() {
-  const percent         = Math.floor(sortedNo * 100 / totalBattles);
+  //const percent         = Math.floor(sortedNo * 100 / totalBattles);
+  const percent         = Math.floor(completedBattles / totalBattles * 100);
   const leftCharIndex   = sortedIndexList[leftIndex][leftInnerIndex];
   const rightCharIndex  = sortedIndexList[rightIndex][rightInnerIndex];
   const leftChar        = characterDataToSort[leftCharIndex];
@@ -342,7 +343,7 @@ function pick(sortType) {
   battleNoPrev        = battleNo;
   sortedNoPrev        = sortedNo;
   pointerPrev         = pointer;
-
+  
   completedBattles += 1;
 
   /** 
