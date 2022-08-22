@@ -503,7 +503,7 @@ opts: {
     img: "Character_Tighnari_Card.png",
 opts: {
    men: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
@@ -518,7 +518,7 @@ opts: {
   },
   {
     name: "Cyno",
-    img: "cyno.png",
+    img: "cyno.jpg",
 opts: {
    men: true,
    unr: true,
@@ -545,11 +545,20 @@ opts: {
   },
   {
     name: "Nilou",
-    img: "nilou.png",
+    img: "nilou.jpg",
 opts: {
    fem: true,
    unr: true,
    sum: true
 }
   },
+  {
+    name: "Candace",
+    img: "nilou.jpg",
+opts: {
+   fem: true,
+   unr: true,
+   sum: true
+}
+  }
 ]
