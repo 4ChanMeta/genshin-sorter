@@ -50,6 +50,7 @@ let pointerPrev         = 0;
 let finalCharacters = [];
 let loading         = false;
 let totalBattles    = 0;
+let completedBattles  = 0;
 let sorterURL       = window.location.host + window.location.pathname;
 let storedSaveType  = localStorage.getItem(`${sorterURL}_saveType`);
 
@@ -299,7 +300,7 @@ function display() {
     return `<p title="${charTooltip}">${charName}</p>`;
   };
 
-  progressBar(`Battle No. ${battleNo}`, percent);
+  progressBar(`Battle No. ${battleNo} (Possibly ${totalBattles - completedBattles} remaining)`, percent);
 
   document.querySelector('.left .sort.image').src = leftChar.img;
   document.querySelector('.right .sort.image').src = rightChar.img;
@@ -341,6 +342,8 @@ function pick(sortType) {
   battleNoPrev        = battleNo;
   sortedNoPrev        = sortedNo;
   pointerPrev         = pointer;
+
+  completedBattles += 1;
 
   /** 
    * For picking 'left' or 'right':
@@ -538,6 +541,8 @@ function result(imageNum = 3) {
 /** Undo previous choice. */
 function undo() {
   if (timeTaken) { return; }
+
+  completedBattles -= 1;
 
   choices = battleNo === battleNoPrev ? choices : choices.slice(0, -1);
 
