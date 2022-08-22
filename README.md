@@ -1,8 +1,8 @@
 # genshin-sorter
-sorter for genshin chars or smth
+Sorter for playable/upcoming playable characters in Genshin Impact
 
-Just a small personal side project... more sorters here https://github.com/execfera/charasort/wiki
+More sorters here https://github.com/execfera/charasort/wiki
 
-Future Plans: Crop all characters and add new characters as they are teased/released.
+Feel free to report any issues here or on my discord (Kogasa📈#8100)
 
-If anyone knows how to fix the squished character portraits or has any further comments please let me know at Crimea📈#8100 on discord. thanx
+Will be updated as new characters get released, leaked, or teased.
