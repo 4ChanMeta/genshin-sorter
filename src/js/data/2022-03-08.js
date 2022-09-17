@@ -494,7 +494,7 @@ opts: {
     img: "Character_Dori_Card.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
