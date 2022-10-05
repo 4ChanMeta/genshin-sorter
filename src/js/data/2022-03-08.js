@@ -521,7 +521,7 @@ opts: {
     img: "cyno.jpg",
 opts: {
    men: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
