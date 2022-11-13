@@ -508,7 +508,7 @@ opts: {
 }
   },
   {
-    name: "Al Haitham",
+    name: "Alhaitham",
     img: "al haitham.png",
 opts: {
    men: true,
@@ -535,11 +535,11 @@ opts: {
 }
   },
   {
-    name: "Kusanali",
+    name: "Nahida",
     img: "kusanali.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
@@ -557,6 +557,33 @@ opts: {
     img: "candace.jpg",
 opts: {
    fem: true,
+   unr: true,
+   sum: true
+}
+  },
+  {
+    name: "Layla",
+    img: "layla.png",
+opts: {
+   fem: true,
+   unr: true,
+   sum: true
+}
+  },
+  {
+    name: "Faruzan",
+    img: "Faruzan.jpg",
+opts: {
+   fem: true,
+   unr: true,
+   sum: true
+}
+  },
+  {
+    name: "Wanderer (Scaramouche)",
+    img: "wanderer.jpg",
+opts: {
+   men: true,
    unr: true,
    sum: true
 }
