@@ -572,7 +572,7 @@ opts: {
   },
   {
     name: "Faruzan",
-    img: "Faruzan.jpg",
+    img: "faruzan.jpg",
 opts: {
    fem: true,
    unr: true,
