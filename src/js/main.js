@@ -657,9 +657,13 @@ function setLatestDataset() {
     }, 0);
 
   currentVersion = Object.keys(dataSet)[latestDateIndex];
-
-  if characterData = dataSet[currentVersion].characterData;
+	
+if (dataSet[currentVersion].characterData == undefined) {
+continue;
+}
+  characterData = dataSet[currentVersion].characterData;
   options = dataSet[currentVersion].options;
+
 
   populateOptions();
 }
