@@ -648,7 +648,7 @@ opts: {
   },
   {
     name: "Mika",
-    img: "mika.png",
+    img: "mika2.png",
 opts: {
    men: true,
    unr: false,
@@ -657,7 +657,7 @@ opts: {
   },
   {
     name: "Neuvillette",
-    img: "neuvillette.png",
+    img: "neuvillete.png",
 opts: {
    men: true,
    unr: true,
@@ -666,7 +666,7 @@ opts: {
   },
   {
     name: "Wriothsely",
-    img: "wriothsely.png",
+    img: "wriothesley.png",
 opts: {
    men: true,
    unr: true,
