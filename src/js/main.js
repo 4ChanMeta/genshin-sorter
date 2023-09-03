@@ -658,7 +658,7 @@ function setLatestDataset() {
 
   currentVersion = Object.keys(dataSet)[latestDateIndex];
 
-  characterData = dataSet[currentVersion].characterData;
+  if characterData = dataSet[currentVersion].characterData;
   options = dataSet[currentVersion].options;
 
   populateOptions();
