@@ -38,6 +38,11 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to remove characters from Inazuma."
   },
   {
+    name: "Filter Fontainians",
+    key: "fon",
+    tooltip: "Check this to remove characters from Fontaine."
+  },
+  {
     name: "Filter Nationless People",
     key: "lol",
     tooltip: "Check this to remove characters who don't have an associated nationality."
@@ -130,7 +135,7 @@ opts: {
     img: "genshin11.png",
 opts: {
     fem: true,
-    liy: true
+    mond: true
 }
   },
   {
@@ -467,7 +472,6 @@ opts: {
     img: "genshinex5.png",
 opts: {
    fem: true,
-   unr: true,
    liy: true
 }
   },
@@ -512,7 +516,7 @@ opts: {
     img: "al haitham.png",
 opts: {
    men: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
@@ -530,7 +534,7 @@ opts: {
     img: "deyha.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
@@ -557,7 +561,7 @@ opts: {
     img: "candace.jpg",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
@@ -566,7 +570,7 @@ opts: {
     img: "layla.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
@@ -575,7 +579,7 @@ opts: {
     img: "faruzan.jpg",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    sum: true
 }
   },
@@ -584,8 +588,89 @@ opts: {
     img: "wanderer.jpg",
 opts: {
    men: true,
+   unr: false,
+   sum: true,
+   ina: true
+}
+  },
+  {
+    name: "Baizhu",
+    img: "baizhu.png",
+opts: {
+   men: true,
+   liy: true
+}
+  },
+  {
+    name: "Freminet",
+    img: "freminet.png",
+opts: {
+   men: true,
    unr: true,
+   fon: true
+}
+  },
+  {
+    name: "Kaveh",
+    img: "kaveh.png",
+opts: {
+   men: true,
+   unr: false,
    sum: true
+}
+  },
+  {
+    name: "Kirara",
+    img: "kirara.png",
+opts: {
+   fem: true,
+   unr: false,
+   sum: true
+}
+  },
+  {
+    name: "Lynette",
+    img: "lynette.png",
+opts: {
+   fem: true,
+   unr: false,
+   fon: true
+}
+  },
+  {
+    name: "Lyney",
+    img: "lyney.png",
+opts: {
+   men: true,
+   unr: false,
+   fon: true
+}
+  },
+  {
+    name: "Mika",
+    img: "mika.png",
+opts: {
+   men: true,
+   unr: false,
+   mond: true
+}
+  },
+  {
+    name: "Neuvillette",
+    img: "neuvillette.png",
+opts: {
+   men: true,
+   unr: true,
+   fon: true
+}
+  },
+  {
+    name: "Wriothsely",
+    img: "wriothsely.png",
+opts: {
+   men: true,
+   unr: true,
+   fon: true
 }
   }
 ]
