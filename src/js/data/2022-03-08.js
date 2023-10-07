@@ -660,13 +660,75 @@ opts: {
     img: "neuvillete.png",
 opts: {
    men: true,
-   unr: true,
    fon: true
 }
   },
   {
     name: "Wriothsely",
     img: "wriothesley.png",
+opts: {
+   men: true,
+   unr: false,
+   fon: true
+}
+  },
+  {
+    name: "Furina",
+    img: "Furina_Card.png",
+opts: {
+   fem: true,
+   unr: true,
+   fon: true
+}
+  },
+  {
+    name: "Charlotte",
+    img: "Charlotte_Card.png",
+opts: {
+   fem: true,
+   unr: true,
+   fon: true
+}
+  },
+  {
+    name: "Clorinda",
+    img: "NPC_Clorinde.png",
+opts: {
+   fem: true,
+   unr: true,
+   fon: true
+}
+  },
+  {
+    name: "Navia",
+    img: "NPC_Navia.png",
+opts: {
+   fem: true,
+   unr: true,
+   fon: true
+}
+  },
+  {
+    name: "Sigewinne",
+    img: "NPC_Sigewinne.png",
+opts: {
+   fem: true,
+   unr: true,
+   fon: true
+}
+  },
+  {
+    name: "Arlecchino",
+    img: "Furina_Card.png",
+opts: {
+   fem: true,
+   unr: true,
+   fon: true
+}
+  },
+  {
+    name: "Wriotheslay",
+    img: "Wriotheslay_Card.png",
 opts: {
    men: true,
    unr: true,
