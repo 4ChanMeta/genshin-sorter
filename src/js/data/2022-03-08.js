@@ -725,14 +725,5 @@ opts: {
    unr: true,
    fon: true
 }
-  },
-  {
-    name: "Wriotheslay",
-    img: "Wriotheslay_Card.png",
-opts: {
-   men: true,
-   unr: true,
-   fon: true
-}
   }
 ]  
