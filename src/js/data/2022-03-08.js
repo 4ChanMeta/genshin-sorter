@@ -719,7 +719,7 @@ opts: {
   },
   {
     name: "Arlecchino",
-    img: "Furina_Card.png",
+    img: "Arlecchino.png",
 opts: {
    fem: true,
    unr: true,
