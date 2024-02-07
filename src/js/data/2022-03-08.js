@@ -606,7 +606,7 @@ opts: {
     img: "freminet.png",
 opts: {
    men: true,
-   unr: true,
+   unr: false,
    fon: true
 }
   },
@@ -625,7 +625,7 @@ opts: {
 opts: {
    fem: true,
    unr: false,
-   sum: true
+   ina: true
 }
   },
   {
@@ -677,7 +677,7 @@ opts: {
     img: "Furina_Card.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    fon: true
 }
   },
@@ -686,16 +686,16 @@ opts: {
     img: "Charlotte_Card.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    fon: true
 }
   },
   {
-    name: "Clorinda",
+    name: "Clorinde",
     img: "NPC_Clorinde.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    fon: true
 }
   },
@@ -704,13 +704,22 @@ opts: {
     img: "NPC_Navia.png",
 opts: {
    fem: true,
-   unr: true,
+   unr: false,
    fon: true
 }
   },
   {
-    name: "Sigewinne",
-    img: "NPC_Sigewinne.png",
+    name: "Chevreuse",
+    img: "Chevreuse.png",
+opts: {
+   fem: true,
+   unr: false,
+   fon: true
+}
+  },
+  {
+    name: "Chiori",
+    img: "Chiori.png",
 opts: {
    fem: true,
    unr: true,
@@ -718,12 +727,21 @@ opts: {
 }
   },
   {
-    name: "Arlecchino",
-    img: "Arlecchino.png",
+    name: "Gaming",
+    img: "Gaming.png",
+opts: {
+   men: true,
+   unr: false,
+   liy: true
+}
+  },
+  {
+    name: "Xianyun",
+    img: "Xianyun.png",
 opts: {
    fem: true,
-   unr: true,
-   fon: true
+   unr: false,
+   liy: true
 }
   }
 ]  
